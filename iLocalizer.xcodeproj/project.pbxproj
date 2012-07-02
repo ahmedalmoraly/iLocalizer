@@ -29,7 +29,7 @@
 		D30F0FC315A200E000D23F34 /* iLocalizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iLocalizer; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30F0FC715A200E000D23F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D30F0FCA15A200E000D23F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D30F0FCD15A200E000D23F34 /* iLocalizer-Prefix.pch */ = {isa = PBXFileReference; path = "iLocalizer-Prefix.pch"; sourceTree = "<group>"; };
+		D30F0FCD15A200E000D23F34 /* iLocalizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iLocalizer-Prefix.pch"; sourceTree = "<group>"; };
 		D30F0FCE15A200E000D23F34 /* iLocalizer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = iLocalizer.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
