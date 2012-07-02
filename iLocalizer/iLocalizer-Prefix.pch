@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iLocalizer' target in the 'iLocalizer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

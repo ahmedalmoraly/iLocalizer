@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30F0FC815A200E000D23F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30F0FC715A200E000D23F34 /* Foundation.framework */; };
+		D30F0FCB15A200E000D23F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30F0FCA15A200E000D23F34 /* main.m */; };
+		D30F0FCF15A200E000D23F34 /* iLocalizer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D30F0FCE15A200E000D23F34 /* iLocalizer.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D30F0FC115A200E000D23F34 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D30F0FCF15A200E000D23F34 /* iLocalizer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D30F0FC315A200E000D23F34 /* iLocalizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iLocalizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30F0FC715A200E000D23F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D30F0FCA15A200E000D23F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D30F0FCD15A200E000D23F34 /* iLocalizer-Prefix.pch */ = {isa = PBXFileReference; path = "iLocalizer-Prefix.pch"; sourceTree = "<group>"; };
+		D30F0FCE15A200E000D23F34 /* iLocalizer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = iLocalizer.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30F0FC015A200E000D23F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30F0FC815A200E000D23F34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30F0FB815A200E000D23F34 = {
+			isa = PBXGroup;
+			children = (
+				D30F0FC915A200E000D23F34 /* iLocalizer */,
+				D30F0FC615A200E000D23F34 /* Frameworks */,
+				D30F0FC415A200E000D23F34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30F0FC415A200E000D23F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30F0FC315A200E000D23F34 /* iLocalizer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30F0FC615A200E000D23F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30F0FC715A200E000D23F34 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D30F0FC915A200E000D23F34 /* iLocalizer */ = {
+			isa = PBXGroup;
+			children = (
+				D30F0FCA15A200E000D23F34 /* main.m */,
+				D30F0FCE15A200E000D23F34 /* iLocalizer.1 */,
+				D30F0FCC15A200E000D23F34 /* Supporting Files */,
+			);
+			path = iLocalizer;
+			sourceTree = "<group>";
+		};
+		D30F0FCC15A200E000D23F34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30F0FCD15A200E000D23F34 /* iLocalizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30F0FC215A200E000D23F34 /* iLocalizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30F0FD215A200E000D23F34 /* Build configuration list for PBXNativeTarget "iLocalizer" */;
+			buildPhases = (
+				D30F0FBF15A200E000D23F34 /* Sources */,
+				D30F0FC015A200E000D23F34 /* Frameworks */,
+				D30F0FC115A200E000D23F34 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLocalizer;
+			productName = iLocalizer;
+			productReference = D30F0FC315A200E000D23F34 /* iLocalizer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30F0FBA15A200E000D23F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D30F0FBD15A200E000D23F34 /* Build configuration list for PBXProject "iLocalizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D30F0FB815A200E000D23F34;
+			productRefGroup = D30F0FC415A200E000D23F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30F0FC215A200E000D23F34 /* iLocalizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30F0FBF15A200E000D23F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30F0FCB15A200E000D23F34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D30F0FD015A200E000D23F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D30F0FD115A200E000D23F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D30F0FD315A200E000D23F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLocalizer/iLocalizer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D30F0FD415A200E000D23F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLocalizer/iLocalizer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30F0FBD15A200E000D23F34 /* Build configuration list for PBXProject "iLocalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30F0FD015A200E000D23F34 /* Debug */,
+				D30F0FD115A200E000D23F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30F0FD215A200E000D23F34 /* Build configuration list for PBXNativeTarget "iLocalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30F0FD315A200E000D23F34 /* Debug */,
+				D30F0FD415A200E000D23F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30F0FBA15A200E000D23F34 /* Project object */;
+}
